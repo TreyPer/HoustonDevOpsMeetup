@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Build Env 2') {
           steps {
-            sleep 5
+            sleep 3
           }
         }
       }
