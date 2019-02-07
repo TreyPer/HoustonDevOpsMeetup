@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sleep 5
+            sleep 3
           }
         }
         stage('Build Env 2') {
